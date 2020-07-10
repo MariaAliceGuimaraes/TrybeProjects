@@ -70,7 +70,7 @@ h2 {
     color: white;
     text-align: center;
     padding-top: 5px;
-    margin-bottom: 0px;
+    bottom: 0px;
 }
 
 #nome {
@@ -95,7 +95,38 @@ article {
     top: 170px;
     left: 10px;
     clear: both;
-    width: 100%;
+    width: 66%;
     text-align: justify;
     padding-top: 5px;
+}
+
+.lado-direito {
+    float: right;
+    position: fixed;
+    top: 80px;
+    right: 00px;
+    width:100px;
+    height: 780px;
+    background-color: rgb(17,17,17);
+    padding: 5px;
+    color: white;
+    text-align: right;
+    line-height: 30px;
+}
+
+nav {
+    position: fixed;
+    background: grey;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+.navegacao-topicos {
+    width: 75%;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    text-align: right;
+    line-height: 20px;
 }
