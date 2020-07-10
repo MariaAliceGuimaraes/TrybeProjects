@@ -8,9 +8,19 @@ body {
     }
 
 #titulo {
-    
+
 }
 
 h1 {
-
+    color: white;
+    clear: left;
     }
+
+#minha_foto {
+    float: left;
+    position: relative;
+    top: 50px;
+    width: 250px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
