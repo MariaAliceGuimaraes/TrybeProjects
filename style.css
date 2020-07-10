@@ -6,6 +6,11 @@ body {
     position: fixed;
     top: 0px;
     clear: both;
+    background-color:rgb(17,17,17);
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 10;
     }
 
 #titulo {
@@ -22,21 +27,35 @@ h2 {
 #minha_foto {
     float: left;
     position: relative;
-    top: 80px;
+    top: 100px;
     left: 10px;
     width: 250px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     clear: both;
+    z-index: 1;
 }
 
 .licoes {
     position: relative;
-    top: 300px;
+    top: 330px;
     left: -238px;
+    z-index: 2;
+}
+
+.licoes2 {
+    position: relative;
+    top: 85px;
+    left: 250px;
+    z-index: 3;
 }
 
 #licoes_aprendidas {
-position: relative;
-left: 18px;
+    position: relative;
+    left: 18px;
+}
+
+#licoes_a_aprender {
+    position: relative;
+    left: -18px;
 }
