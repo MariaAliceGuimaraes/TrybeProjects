@@ -38,21 +38,21 @@ h2 {
 
 .licoes {
     position: relative;
-    top: 380px;
-    left: -238px;
+    top: 180px;
+    left: 10px;
     z-index: 2;
 }
 
 .licoes2 {
     position: relative;
-    top: 138px;
+    top: -61px;
     left: 250px;
     z-index: 3;
 }
 
 #licoes_aprendidas {
     position: relative;
-    left: 18px;
+    left: -20px;
 }
 
 #licoes_a_aprender {
@@ -61,15 +61,16 @@ h2 {
 }
 
 #rodape {
-    position:relative;
-    top: 150px;
+    position:fixed;
+    top: 500px;
     clear: both;
     background-color: rgb(17,17,17);
     width: 100%;
-    height: 50px;
+    height: 25% 50%;
     color: white;
     text-align: center;
     padding-top: 5px;
+    margin-bottom: 0px;
 }
 
 #nome {
@@ -87,4 +88,14 @@ a {
 a:hover {
     background-color: rgb(17,17,17);
     color: white;
+}
+
+article {
+    position:relative;
+    top: 170px;
+    left: 10px;
+    clear: both;
+    width: 100%;
+    text-align: justify;
+    padding-top: 5px;
 }
