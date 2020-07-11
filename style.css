@@ -71,7 +71,7 @@ h1 {
 }
 
 #rodape {
-    position:fixed;
+    position: fixed;
     top: 520px;
     clear: both;
     background-color: rgb(17,17,17);
@@ -109,12 +109,12 @@ a:hover {
     padding-top: 5px;
 }
 
-aside {
+.lado-direito {
     float: right;
     position: fixed;
     top: 80px;
     right: 00px;
-    width:20%;
+    width: 20%;
     height: 780px;
     background-color: rgb(17,17,17);
     padding: 5px;
