@@ -1,29 +1,22 @@
 body {
     background-color: rgb(253,251,251);
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: Source Sans Pro, sans-serif;
 }
 
 #cabecalho {
     position: fixed;
     top: 0px;
     clear: both;
-    background-color:rgb(17,17,17);
+    background-color: rgb(17,17,17);
     width: 100%;
     color: white;
     text-align: center;
     z-index: 10;
     }
 
-#titulo {
-
-}
-
 h1 {
     clear: left;
     }
-
-h2 {
-}
 
 #minha_foto {
     float: left;
@@ -40,11 +33,18 @@ h2 {
 .licoes {
     display: inline-block;
     width: 30%;
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 25px;
 }
 
 .licoes2 {
     display: inline-block;
     width: 30%;
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #licoes_aprendidas {
@@ -66,13 +66,13 @@ h2 {
 }
 
 .licoes-container-wrapper {
-    margin: 20px;
+    margin: 15px;
     width: 100%;
 }
 
 #rodape {
     position:fixed;
-    top: 540px;
+    top: 520px;
     clear: both;
     background-color: rgb(17,17,17);
     width: 100%;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .lado-esquerdo {
-    position:relative;
+    position: relative;
     top: 170px;
     left: 10px;
     clear: both;
@@ -109,7 +109,7 @@ a:hover {
     padding-top: 5px;
 }
 
-.lado-direito {
+aside {
     float: right;
     position: fixed;
     top: 80px;
