@@ -5,7 +5,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   clear: both;
   background-color: rgb(17 , 17 , 17);
   width: 100%;
@@ -79,7 +79,7 @@ h1 {
   color: white;
   text-align: center;
   padding-top: 5px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 #nome {
@@ -113,7 +113,7 @@ a:hover {
   float: right;
   position: fixed;
   top: 80px;
-  right: 00px;
+  right: 0;
   width: 20%;
   height: 780px;
   background-color: rgb(17 , 17 , 17);
