@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253,251,251);
+    background-color: rgb(253, 251, 251);
     font-family: Source Sans Pro, sans-serif;
 }
 
@@ -7,7 +7,7 @@ body {
     position: fixed;
     top: 0px;
     clear: both;
-    background-color: rgb(17,17,17);
+    background-color: rgb(17, 17, 17);
     width: 100%;
     color: white;
     text-align: center;
@@ -74,7 +74,7 @@ h1 {
     position: fixed;
     top: 520px;
     clear: both;
-    background-color: rgb(17,17,17);
+    background-color: rgb(17, 17, 17);
     width: 100%;
     color: white;
     text-align: center;
@@ -95,7 +95,7 @@ a {
 }
 
 a:hover {
-    background-color: rgb(17,17,17);
+    background-color: rgb(17, 17, 17);
     color: white;
 }
 
@@ -116,7 +116,7 @@ a:hover {
     right: 00px;
     width: 20%;
     height: 780px;
-    background-color: rgb(17,17,17);
+    background-color: rgb(17, 17, 17);
     padding: 5px;
     color: white;
     text-align: right;
