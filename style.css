@@ -1,0 +1,146 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: Source Sans Pro, sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  clear: both;
+  background-color: rgb(17 , 17 , 17);
+  width: 100%;
+  color: white;
+  text-align: center;
+  z-index: 10;
+}
+
+h1 {
+  clear: left;
+}
+
+#minha_foto {
+  float: left;
+  position: relative;
+  top: 100px;
+  left: 10px;
+  width: 250px;
+  clear: both;
+  z-index: 1;
+}
+
+.licoes {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 25px;
+}
+
+.licoes2 {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#licoes_aprendidas {
+  position: relative;
+  left: -20px;
+}
+
+#licoes_a_aprender {
+  position: relative;
+  left: -18px;
+}
+
+.licoes-container {
+  width: 50%;
+  clear: both;
+  display: inline-block;
+  position: relative;
+  top: 200px;
+}
+
+.licoes-container-wrapper {
+  margin: 15px;
+  width: 100%;
+}
+
+#rodape {
+  position: fixed;
+  top: 520px;
+  clear: both;
+  background-color: rgb(17 , 17 , 17);
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  bottom: 0;
+}
+
+#nome {
+  float: left;
+  position: relative;
+  top: 380px;
+  left: -240px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(17 , 17 , 17);
+  color: white;
+}
+
+.lado-esquerdo {
+  position: relative;
+  top: 170px;
+  left: 10px;
+  clear: both;
+  width: 70%;
+  text-align: justify;
+  padding-top: 5px;
+}
+
+.lado-direito {
+  float: right;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  width: 20%;
+  height: 780px;
+  background-color: rgb(17 , 17 , 17);
+  padding: 5px;
+  color: white;
+  text-align: right;
+  line-height: 30px;
+}
+
+nav {
+  position: relative;
+  background: grey;
+  top: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.navegacao-topicos {
+  width: 55%;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 15px;
+  text-align: right;
+  line-height: 20px;
+}
+
+table {
+  position: relative;
+  top: 170px;
+  left: 15px;
+  text-align: left;
+}
