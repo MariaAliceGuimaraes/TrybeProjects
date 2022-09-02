@@ -1,0 +1,151 @@
+/*
+
+{font-family: 'Anton', sans-serif;
+}
+
+{font-family: 'Bungee Outline', cursive;
+}
+
+{font-family: 'Lato', sans-serif;
+}
+
+*/
+
+/*estrutura*/
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/1800744.jpg");
+}
+
+#container-wrapper{
+    background-color: rgb(48, 48, 48);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+}
+
+/*textos*/
+
+#title{
+    font-family: 'Bungee Outline', cursive;
+    color: rgb(192, 192, 192);
+    text-align: center;
+}
+
+#VQVbutton{
+    margin-left: 36%;
+    margin-right: 36%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+input{
+    color: rgb(192, 192, 192);
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    border: 0px;
+    width: 150px;
+    height: 20px;
+}
+
+#generate-board{
+    margin: 0px;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    border: 0px;
+    height: 22px;
+}
+
+
+/*colors*/
+
+#color-palette{
+    margin-left: 36%;
+    margin-right: 36%;
+    text-align: center;
+    height: 50px;
+}
+
+#black{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+
+}
+
+#yellow{
+    background-color: rgb(245, 210, 116);
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+
+}
+
+#blue{
+    background-color: rgb(113, 222, 226);
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+
+}
+
+#red{
+    background-color: rgb(245, 131, 116);
+    border: 1px solid black;
+    width: 50px;
+    height: 40px;
+
+}
+
+
+/*pixels*/
+
+.pixel{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px;
+    background-color: white;
+    display: inline-block;
+}
+
+#pixel-board{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.coluna {
+    display: block;
+    margin: 0px;
+    margin-bottom: -4px;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+
+
+/*botoes*/
+
+#clear-board{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 0px;
+
+}
+
+#clear-container{
+    width:100%;
+    text-align: center;
+}
