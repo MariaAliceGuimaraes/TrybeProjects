@@ -1,0 +1,4 @@
+-- Crie uma TRIGGER que, a cada nova inserção realizada na tabela orders, insira automaticamente a data atual na coluna OrderDate.
+-- Agora teste a funcionalidade da trigger:
+-- Insira na tabela ordersum novo registro com os dados: CustomerID com valor 4, EmployeeID com valor 2 e ShipperID com valor 2;
+-- Monte uma query que mostre todos os CustomerID igual a 4.

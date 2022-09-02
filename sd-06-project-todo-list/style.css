@@ -1,0 +1,141 @@
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 23px;
+}
+
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    min-height: 800px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/133/727/original/WoodBackground54342.jpg);
+}
+
+#container{
+    background-image: url(https://i.pinimg.com/originals/bc/62/4b/bc624b93a770919505553cbe87ef9781.jpg);
+    font-family: 'Amatic SC', cursive;
+    color: rgba(255, 255, 255, 0.884);
+    height: 800px;
+    margin-bottom: 0px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow:  0 20px 40px 20px rgba(0, 0, 0, 0.37), 0 20px 40px 20px rgba(0, 0, 0, 0.37);
+    text-align: center;
+}
+
+input{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 25px;
+    width:55%;
+    opacity: 45%;
+}
+
+ol{
+    width: 65%;
+    margin: auto;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    background-color: transparent;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.selected{
+    background-color: rgb(128, 128, 128);
+}
+
+.completed{
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+
+#criar-tarefa{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 26.5px;
+    width:10%;
+    opacity: 45%;
+    margin-left: 7px;
+}
+
+
+#apaga-tudo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 26.5px;
+    width:10%;
+    opacity: 45%;
+    margin-left: 7px;
+}
+
+#remover-finalizados{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 26.5px;
+    width:10%;
+    opacity: 45%;
+    margin-left: 7px;
+}
+
+#remover-selecionado{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 26.5px;
+    width:10%;
+    opacity: 45%;
+    margin-left: 7px;
+}
+
+#salvar-tarefas{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 26.5px;
+    width:10%;
+    opacity: 45%;
+    margin-left: 7px;
+}
+
+#mover-cima{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 26.5px;
+    width:10%;
+    opacity: 45%;
+    margin-left: 7px;
+}
+        
+#mover-baixo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.404);
+    border: 0px;
+    height: 26.5px;
+    width:10%;
+    opacity: 45%;
+    margin-left: 7px;
+}
