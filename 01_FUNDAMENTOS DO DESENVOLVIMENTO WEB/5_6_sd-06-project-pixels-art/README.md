@@ -1,7 +1,7 @@
 # Projeto Arte com Pixels!
 
 
-![exemplo de arte com pixels](./art-with-pixels.gif)
+![exemplo de arte com pixels](./pixelsart.gif)
 
 
 ## Requisitos:
