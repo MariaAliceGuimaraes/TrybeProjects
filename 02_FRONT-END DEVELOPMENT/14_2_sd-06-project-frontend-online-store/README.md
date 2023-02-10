@@ -1,8 +1,4 @@
-# Boas vindas ao repositório do projeto de Front-End Online Store!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+# Projeto de Front-End Online Store!
 
 ## O QUE DEVERÁ SER DESENVOLVIDO
 
@@ -12,130 +8,12 @@ Neste projeto você criará uma versão simplificada, sem persistência no banco
   - Visualizar detalhes e avaliações prévias de um produto, bem como criar novas avaliações;
   - E por fim, finalizar a compra (simulada) dos itens selecionados.
 
-## COMO DESENVOLVER
-
-Este repositório **já conta com uma `main-group` para cada grupo**, identificada como `main-group-1` para o grupo 1, `main-group-2` para o grupo 2, e assim por diante. Para desenvolver, você sempre deve:
-
-* **Criar sua branch de desenvolvimento a partir da sua branch main**. Para isso, clone este repositório, faça o `git checkout main-group-XX && git pull` e em seguida o `git checkout -b main-group-XX-minha-feature`.
-* Para criar uma Pull Request para fazer **Code Review**, entitule-a `[GRUPO XX] Meu título` e **sempre aponte a Pull Request da sua branch para a branch `main-group-XX` do seu grupo, como no exemplo abaixo:**
-
-![Exemplo de como apontar uma Pull Request para a branch main do grupo](pull-request-para-branch-do-grupo.png)
-
-* Quando várias pessoas desenvolvem para um mesmo projeto podem ocorrer **conflitos de merge** que precisarão ser resolvidos. Prestem atenção a isso!
-
-⚠ **ATENÇÃO! É POSSÍVEL COMMITAR, POR ENGANO, NA BRANCH DE OUTRO GRUPO, ENTÃO TOME MUITO CUIDADO** ⚠
-
-### Antes de começar a desenvolver:
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-06-project-frontend-online-store.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-06-project-frontend-online-store`
-  * Vá para a branch do seu grupo, com `git checkout main-group-XX && git pull`, onde `XX` é o número do seu grupo. Exemplos: `main-group-1`, `main-group-22`.
-
-2. Instale as dependências e inicialize o projeto
-  * Instale as dependências:
-    * `npm install`
-  * Inicialize o projeto:
-    * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
-
-3. Faça alterações separadas por novas branchs criadas a partir da branch `main-group-XX`, criando uma nova branch para cada demanda
-  * Verifique que você está na branch `main-group-XX`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `main-group-XX`
-    * Exemplo: `git checkout main-group-XX && git pull`
-  * Agora, crie uma branch para a demanda que você vai desenvolver do seu projeto
-    * Você deve criar uma branch com uma breve descrição da demanda a ser desenvolvida
-    * Exemplo: `git checkout -b main-group-XX-cria-campo-de-busca`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listadas as novas alterações em vermelho)
-  * Adicione o arquivo alterado ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listadas as novas alterações em verde)
-  * Faça seus `commit`
-      * Exemplo:
-        * `git commit -m 'cria componente de busca`
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin main-group-XX-cria-campo-de-busca`
-
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-06-project-frontend-online-store/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a branch do grupo, `main-group-XX`, e a sua branch **com atenção**
-  * Coloque um título para a sua _Pull Request_
-    * Exemplo: _"[GRUPO XX] Cria tela de busca"_
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-06-project-frontend-online-store/pulls) e confira que o seu _Pull Request_ está criado
-
-7. Assim que aprovado por pelo menos duas pessoas do seu grupo e o _Linter_ estiver adereçado, acesse **SEU** _Pull Request_ e clique no botão _"Merge pull request"_
-
 ## REQUISITOS DO PROJETO
 
 Para o bom andamento deste projeto disponibilizamos, além do README a seguir, um _quadro Kanban_ com as demandas a realizar para o projeto ser concluído com sucesso. Confira o _Slack_ para saber como acessar o quadro! É de suma importância que o grupo se organize utilizando o quadro para maior eficiência e para que se minimizem os conflitos que a união de vários códigos trará.
 
 Além disso, você verá que os requisitos do projeto tem, além das observações técnicas e do que será validado, descrições tais quais se veriam em um projeto real. É **muito importante** ser capaz de ler descrições como essa e transformá-las em produtos ou, se houver dúvida, **saber tirar tais dúvidas!** Seguimos à disposição no Slack para isso.
 
-### Linter
-
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
-
-```bash
-npm run lint
-```
-
-⚠ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
-
-### Grupos de prioridade
-
-Os requisitos são organizados por grupos de prioridade. **Demandas de um grupo de prioridade podem ser realizadas em paralelo, e são pré-requisito para as demandas do grupo de prioridade seguinte.** Por exemplo:
-
-- **Requisitos 1 e 2:** Prioridade 0 (Deve ser feito PRIMEIRO)
-- **Requisitos 3 a 5:** Prioridade 1 (Devem ser feitos APÓS OS REQUISITO 1 E 2, mas podem ser feitos em paralelo)
-- **Requisitos 5 a 7:** Prioridade 2 (Devem ser feitos APÓS OS REQUISITO 3 A 5, mas podem ser feitos em paralelo)
-...
-
-Se você não seguir a ordem de prioridades terá que lidar com mais **conflitos de merge** e **demandas concorrentes**, onde o avanço de uma depende, necessáriamente, do avanço de outra para poder acontecer.
-
-### Requisitos Bônus
-
-No grupo de **Prioridade 4** há um requisito obrigatório, o requisito 12, e os requisitos 13 a 15, que são bônus. Além deles, temos um conjunto de cards menos prioritários (**Prioridade 5**) que não são contemplados pelo avaliador automático mas são funcionalidades que acrescentarão muito ao trabalho quando este for apresentado em um portfólio.
-
-**Saiba priorizar tarefas e priorize o essencial antes de partir para os extras!** Você se deparará com inúmeras situações no trabalho em que precisará priorizar, então este é um exercício muito importante de se praticar.
-
-### Execução de testes unitários
-
-Vamos utilizar [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) para execução dos testes unitários. Esse _framework_ de testes utiliza algumas marcações no código para verificar a solução proposta. Uma dessas marcações é o atributo `data-testid` e faremos uso dele aqui.
-
-Na descrição dos requisitos (logo abaixo) será pedido que seja feita a adição de atributos `data-testid` nos elementos _HTML_. Vamos a um exemplo para deixar evidente essa configuração: se o requisito pedir _"crie um botão e adicione o id de teste (ou `data-testid`) com o valor `my-action`, você pode escrever_:
-
-```html
-<button data-testid="my-action" ></button>
-```
-
-ou
-
-```html
-<a data-testid="my-action"><a/>
-```
-
-Ou seja, o atributo `data-testid="my-action"` servirá para o React Testing Library(RTL) identificar o elemento e, dessa forma, conseguiremos realizar testes unitários focados no comportamento da aplicação. Afim de verificar a solução proposta, você pode executar todos os testes unitários localmente com o comando abaixo:
-
-```bash
-npm test
-```
-
-Você pode executar os testes para um único requisito passando, como parâmetro para o comando, o nome do arquivo de teste alvo:
-
-```bash
-npm test src/__tests__/requirement1.test.js
-```
 
 ### Documentação da API do Mercado Livre
 
@@ -530,46 +408,3 @@ As pessoas que vendem no Mercado Livre disponibilizam frete grátis a alguns pro
 
 - [Tela - Detalhamento do produto com quantidade.png](https://github.com/tryber/sd-06-project-frontend-online-store/tree/master/wireframes/card_09.png)
 
----
-
-## Instruções para entregar seu projeto:
-
----
-
-### DURANTE O DESENVOLVIMENTO
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-06`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas! ⚠
-
----
-
-### REVISANDO UM PULL REQUEST
-
-⚠⚠⚠
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
