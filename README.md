@@ -3,36 +3,7 @@
 Here you can see some of my projects developed at trybe!
 
 
-## FUNDAMENTOS DO DESENVOLVIMENTO WEB
-
-
-Block 3: Introduction - HTML & CSS\
-- [x] 3-5: Project - Lessons Learned
-
-Block 4: Introduction - JavaScript and Programming Logic\
-- [x] 4-5: Project - Playground Functions
-
-Block 5: JavaScript - DOM, Events and Web Storage\
-5-5: Project - Meme Generator\
-- [x] 5-6: Project - Art with Pixels\
-- [x] 5-7: Project - To Do List\
-- [ ] 5-8: Project - Guess the Color\
-- [ ] 5-9: Project - Mysterious Card\
-
-Block 6: HTML & CSS: Forms, Flexbox and App Responsiveness\
-- [x] 6-6: Project - Facebook home
-
-Block 7: JavaScript ES6 & Unit Tests\
-- [x] 7-5: Project - JavaScript Unit Tests
-
-Block 8: JavaScript ES6 Higher Order Functions (HOF)\
-- [x] 8-5: Project - Zoo functions
-
-Block 9: Asynchronicity & Callbacks\
-- [x] 9-3: Project - Shopping Cart
-
-Block 10: Jest\
-- [x] 10-4: Project - Asynchronous Jest and Mocking
+## [FUNDAMENTOS DO DESENVOLVIMENTO WEB](https://github.com/MariaAliceGuimaraes/TrybeProjects/tree/main/01_FUNDAMENTOS%20DO%20DESENVOLVIMENTO%20WEB)
 
 
 ## FRONT-END DEVELOPMENT
