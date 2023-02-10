@@ -6,34 +6,8 @@ Here you can see some of my projects developed at trybe!
 ## [FUNDAMENTOS DO DESENVOLVIMENTO WEB](https://github.com/MariaAliceGuimaraes/TrybeProjects/tree/main/01_FUNDAMENTOS%20DO%20DESENVOLVIMENTO%20WEB)
 
 
-## FRONT-END DEVELOPMENT
+## [FRONT-END DEVELOPMENT](https://github.com/MariaAliceGuimaraes/TrybeProjects/tree/main/02_FRONT-END%20DEVELOPMENT)
 
-Block 11: REACT Introduction\
-- [x] 11-3: Project - Movie Cards Library
-
-Block 12: Components with Status, Events and Forms with React\
-- [x] 12-3: Project - Movie Cards Library Stateful
-
-Block 13: Component lifecycle and React Router\
-- [x] 13-3: Project - Movie Cards Library CRUD
-
-Block 14: Agile Methodologies\
-- [x] 14-2: Project - Frontend Online Store
-
-Block 15: Automated testing with React Testing Library\
-- [x] 15-4: Project - React Tests
-
-Block 16: State Management with Redux\
-- [x] 16-6: Project - Trybe Wallet
-
-Block 17: React Project\
-- [x] 17-1: Project - Trivia Game
-
-Block 18: Context API and React Hooks\
-- [x] 18-4: Project - Datatable StarWars with Context API and Hooks
-
-Block 19: Final Front-end Project\
-- [x] 19-1: Project - Recipe App
 
 ## BACK-END DEVELOPMENT
 
