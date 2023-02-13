@@ -16,7 +16,9 @@ Nesse projeto, você será capaz de:
 
   - Criar actions assíncronas na sua aplicação React que faz uso de Redux.
 
----
+
+<img src="trivia.gif" width="100%"/>
+
 
 ## SUMÁRIO
 
