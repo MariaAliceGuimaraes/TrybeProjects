@@ -1,7 +1,14 @@
 # Projeto Arte com Pixels!
 
 
-<img src="pixelsart.gif" width="100%"/>
+
+
+https://user-images.githubusercontent.com/67606411/218446513-885fd212-f962-420f-bb58-ca8c5d3e2db5.mp4
+
+
+
+https://user-images.githubusercontent.com/67606411/218446605-6ad1d4c7-cb38-43fe-9aab-0f2ae98ac5b5.mp4
+
 
 
 ## Requisitos:
