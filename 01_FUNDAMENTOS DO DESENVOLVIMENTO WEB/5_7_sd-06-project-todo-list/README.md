@@ -1,7 +1,8 @@
 # Projeto Lista de Tarefas!
 
 
-![exemplo de uma todo list](./ezgif.com-video-to-gif.gif)
+<img src="ezgif.com-video-to-gif.gif" width="100%"/>
+
 
 
 1 - Sua lista deve possuir o título "Minha Lista de Tarefas" em uma tag `<header>`. Esse título não varia de acordo com o conteúdo da lista. _Não confunda esse título com o título da página, que deve aparecer dentro da tag `head`_.
