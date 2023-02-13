@@ -1,7 +1,7 @@
 # Projeto Arte com Pixels!
 
 
-![exemplo de arte com pixels](./pixelsart.gif)
+<img src="pixelsart.gif" width="100%"/>
 
 
 ## Requisitos:
