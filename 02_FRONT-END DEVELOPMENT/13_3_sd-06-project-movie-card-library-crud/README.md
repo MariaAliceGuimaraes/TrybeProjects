@@ -11,7 +11,13 @@ A sigla **CRUD** significa, _Create, Read, Update and Delete_, então deve ser p
   - E apagar um filme da lista - **DELETE**;
 
 
-<img src="ezgif.com-crop.gif" width="100%"/>
+
+
+
+https://user-images.githubusercontent.com/67606411/218444134-ece4baf0-a33a-4ff3-9f4c-203d287393d0.mp4
+
+
+
 
 
 Nos últimos projetos, por mais que o app tenha sido desenvolvido utilizando múltiplos componentes, o que é uma boa prática, todas as funcionalidades eram acessadas ao mesmo tempo, no mesmo lugar, utilizando apenas uma URL (`localhost:3000`, normalmente). Na mesma página onde havia a listagem de filmes, havia um formulário pra criar um novo filme, por exemplo. À medida que seus apps se tornarem maiores e mais complexos, isso se tornará inviável. Desta vez, as funcionalidades do app serão agrupadas e organizadas em rotas.
