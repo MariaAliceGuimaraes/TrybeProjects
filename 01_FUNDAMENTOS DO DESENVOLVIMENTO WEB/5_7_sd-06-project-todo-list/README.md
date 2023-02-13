@@ -1,7 +1,10 @@
 # Projeto Lista de Tarefas!
 
 
-<img src="ezgif.com-video-to-gif.gif" width="100%"/>
+
+
+https://user-images.githubusercontent.com/67606411/218445490-ac7a0c3d-e322-4b7f-bbd0-f9294f61feef.mp4
+
 
 
 
