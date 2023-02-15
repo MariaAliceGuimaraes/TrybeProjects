@@ -1,16 +1,4 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
-Manual da Pessoa Estudante da Trybe.
-
-# Boas vindas ao repositório do projeto TING(Trybe is not Google)!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
----
-
+# Projeto TING(Trybe is not Google)!
 
 # Sumário
 
@@ -53,14 +41,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 --- 
 
-## Entregáveis
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter os arquivos apresentados na sessão: [Desenvolvimento e testes](#desenvolvimento-e-testes).
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/fundamentals/git) sempre que precisar!
-
----
-
 ## O que deverá ser desenvolvido
 
 A `Trybe` lhe convida para implementar um programa que simule o algoritmo de indexação de documentos similar ao do Google. Ou seja, um programa que permita anexar arquivos de texto e posteriormente opere funções de busca sobre tais arquivos
@@ -78,125 +58,6 @@ Sendo assim o programa deverá possuir dois módulos:
 - Modo gerenciamento de arquivos;
 
 - Modo de buscas.
-
----
-
-## Desenvolvimento
-
-Este repositório já contém um _template_ com a estrutura de diretórios e arquivos, tanto de código quanto de teste criados. Há também o diretório `statics` que contém os arquivos necessários para realização de testes, caso julgue necessário, sinta-se à vontade para criar novos arquivos ou editar o conteúdo dos arquivos existentes. Veja abaixo:
-
-```md
-.
-├── statics
-│   ├── arquivo_teste.txt
-│   ├── novo_paradigma_globalizado.txt
-│   └── novo_paradigma_globalizado-min.txt
-├── tests
-├── ting_file_management
-│   ├── file_management.py
-│   └── file_process.py
-├── ting_word_searches
-│   └── word_search.py
-├── README.md
-├── requirements.txt
-└── setup.cfg
-```
-
-Apesar do projeto já possuir uma estrutura base, você quem deve implementar tanto as funções quanto os testes (_extra_). Novos arquivos podem ser criados conforme a necessidade.
-
-Para executar os testes, lembre-se de primeiro **criar e ativar o ambiente virtual**, além de também instalar as dependências do projeto. Isso pode ser feito através dos comandos:
-
-```bash
-$ python3 -m venv .venv
-
-$ source .venv/bin/activate
-
-$ python3 -m pip install -r dev-requirements.txt
-```
-
-O arquivo `requirements.txt` contém todos as dependências que serão utilizadas no projeto, ele está agindo como se fosse um `package.json` de um projeto `Node.js`. 
-
----
-
-## Data de Entrega
-
-  - Serão `2` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `30/06/2021 - 14:00h`.
-
----
-
-## Instruções para entregar seu projeto:
-
-### ANTES DE COMEÇAR A DESENVOLVER:
-
-1. Clone o repositório
-
-- `git clone git@github.com:tryber/sd-06-project-ting.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `sd-06-project-ting`
-
-2. Crie o ambiente virtual para o projeto
-
-- `python3 -m venv .venv && source .venv/bin/activate`
-
-3. Instale as dependências
-
-- `python3 -m pip install -r dev-requirements.txt`
-
-4. Crie uma branch a partir da branch `main`
-
-- Verifique que você está na branch `main`
-  - Exemplo: `git branch`
-- Se não estiver, mude para a branch `main`
-  - Exemplo: `git checkout main`
-- Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-  - Você deve criar uma branch no seguinte formato: `nome-github-nome-do-projeto`
-  - Exemplo: `git checkout -b exemplo-project-ting`
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_
-  - Exemplo: `git status` (deve aparecer listada a pasta _exemplo_ em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (deve aparecer listado o arquivo _exemplo/README.md_ em verde)
-- Faça o `commit` inicial
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto ting'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin exemplo-project-name`
-
-7. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-06-project-ting/pulls)
-- Clique no botão verde _"New pull request"_
-- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-- Clique no botão verde _"Create pull request"_
-- Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-- **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-06-project-ting/pulls) e confira que o seu _Pull Request_ está criado
-
----
-
-## Testes
-
-Com as dependências já instaladas, para executar os testes basta usar o comando:
-
-```bash
-$ python3 -m pytest
-```
-
-Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse artigo: https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1
-
-Para verificar se você está seguindo o guia de estilo do Python corretamente, execute o comando:
-
-```bash
-$ python3 -m flake8
-```
 
 ---
 
@@ -388,27 +249,3 @@ Acima de tudo,
   3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
   4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
   5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-06`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-### REVISANDO UM PULL REQUEST
-
-Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
-#VQV 🚀
